@@ -1,0 +1,16 @@
+h1,p{
+    text-align: center;
+    font-family: roboto;
+   
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('Roboto-Regular.ttf');
+}
+img:hover{
+    width: 100vw;
+    height: 100hw;
+
+}
+body{margin:0;}

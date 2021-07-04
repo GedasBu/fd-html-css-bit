@@ -1,0 +1,36 @@
+<!-- Position the element with the "topleft" class 30px from the left,
+   and 15px from the top, relative to its container.
+ -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ .container {
+   position: relative;
+ }
+ 
+ .topleft {
+   font-size: 18px;
+   position: absolute;
+   left: 30px;
+   top: 15px;
+ }
+ 
+ img {
+   width: 100%;
+   height: auto;
+   opacity: 0.3;
+ }
+ </style>
+ </head>
+ <body>
+ 
+ <div class="container">
+   <img src="https://cataas.com/cat" alt="Cat" width="1000" height="300">
+   <div class="topleft">Top Left</div>
+ </div>
+ 
+ </body>
+ </html>
+ 
+ 

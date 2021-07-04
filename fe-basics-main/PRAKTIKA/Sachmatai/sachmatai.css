@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.bbase {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chbase {
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    box-sizing: border-box;
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 2em;
+}
+
+.dark {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-sizing: border-box;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+}
+
+.letter-top, .letter-bottom {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-top {
+    border-bottom: 2px solid;
+}
+
+.letter-bottom {
+    border-top: 2px solid;
+}
+
+.digitsr, .digitsl {
+    height: 100px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitsr {
+    box-sizing: border-box;
+    border-left: 2px solid;
+}
+
+.digitsl {
+    box-sizing: border-box;
+    border-right: 2px solid;
+}

@@ -1,0 +1,27 @@
+<!-- Specify that the overflowed content for the <p>
+     element should be signaled with an ellipsis (...)
+ -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ p {
+     text-overflow: ellipsis;
+   white-space: nowrap; 
+   width: 200px; 
+   border: 1px solid #000000;
+   overflow: hidden;
+ }
+ p:hover{
+   white-space: nowrap; 
+   width: 500px; 
+   border: 1px solid #000000;
+   overflow: hidden;
+ }
+ </style>
+ </head>
+ <body>
+ <p title="This paragraph contains a very long word: supercalifragilisticexpialidocious">This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
+ </body>
+ </html>
+ 

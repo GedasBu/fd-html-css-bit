@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+html, body {
+    height: 100%;
+    font-family: Poppins,sans-serif;
+    color: #f2f2f2;
+    font-size:1rem;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #ffffff;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #f2f2f2;
+}
+
+.container-wrapper {
+    width: 1120px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    height: 853px;
+}
+.user-form{
+    background-color: white;
+    display: flex;
+    /* justify-content: center;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    width: 50%;  
+    padding: 56px 55px 63px;
+    
+}
+label, input {
+    border: 1px solid lightgray;
+    width: 100%;
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    outline: none;
+}
+#email{
+    width: 100%;
+}
+
+input{
+    margin-bottom: 15px;
+
+}
+input, textarea{
+    font-family: Poppins,sans-serif;
+    color:#666
+}
+#text-area:focus {
+    border-color: #00ad5f;
+}
+#email:focus {
+    border-color: #00ad5f;
+}
+label{
+    text-transform: uppercase;
+    color: #555;
+    font-size: 12px;
+    border-bottom: none;
+    
+}
+#last-name {
+    border-left: none;
+    
+}
+.form-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    background: #00ad5f;
+    /* font-family: Montserrat-Bold; */
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .4s;
+    border:none;
+}
+button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+#text-area{
+    display: block;
+    width: 100%;
+    background: 0 0;
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.2;
+    padding: 0 25px;
+    /* min-height: 139px; */
+    padding-top: 19px;
+    padding-bottom: 15px;
+    outline: none;
+    border: 1px solid lightgray;
+    font-family: Poppins,sans-serif;
+    color:#666
+    
+
+}
+.company-details {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url('https://colorlib.com/etc/cf/ContactFrom_v17/images/bg-01.jpg');
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 30px 15px 0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.text{    
+    display: flex;
+    flex-direction: column;
+}
+.address, .tel, .support{
+    display: flex;
+    flex-direction: row;
+    width: 355px;
+    max-width: 100%;
+    padding-bottom: 47px;
+    color: white;
+}
+
+.address-icon, .tel-icon, .support-icon{
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+#form-top-text{
+    font-size: 33px; 
+    width: 100%;
+    text-align: center; 
+    display: block; 
+    padding-bottom: 33px; 
+}
+
+.txt2{
+   color:  #999;
+   font-size: 15px;
+   line-height: 1.6;
+}
+.txt1{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/* @media screen .; {
+    
+} */

@@ -1,0 +1,63 @@
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+div {
+    padding: 0px 10px;
+}
+
+/* Plotas po mygtukais */
+
+.buttons-plotas {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 24px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+/* visi mygtuku pagrindas. Visų mygtukų bazė yra vienoda */
+
+button,a {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0px 10px;
+    outline: 0;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    
+}
+
+
+
+

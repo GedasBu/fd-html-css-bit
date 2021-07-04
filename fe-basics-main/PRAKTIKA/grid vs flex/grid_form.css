@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    width:600px ;
+    margin-top:20px ;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap:16px
+}
+form label{
+    grid-column: 1 / 2;
+    width: 200px;
+    text-align: right;
+    padding: 0.5em 1.5em 0.5em 0;
+    
+}
+form input{
+    grid-column: 2 / 3;
+    background-color: #fff;
+    border: 1px solid #9c9c9c;
+    padding: 0.7em
+
+}

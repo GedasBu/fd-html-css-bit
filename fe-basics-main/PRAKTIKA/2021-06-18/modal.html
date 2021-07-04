@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body onclick="manoFunkcija()">
+
+    <div id="fonas" class="modal">
+
+        <div id="kontentas" class="kontentas">
+            <span class="close" onclick="closeModal('fonas')">&times</span>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, consequuntur nostrum. Facere
+                suscipit recusandae consequatur laboriosam voluptatem vel tempore similique rem sit beatae aperiam
+                architecto tenetur, perferendis cumque placeat nostrum!</p>
+
+        </div>
+
+
+
+    </div>
+    <div id="fonas2" class="modal">
+
+        <div id="kontentas" class="kontentas">
+            <span class="close" onclick="closeModal('fonas2')">&times</span>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, consequuntur nostrum. Facere
+                suscipit recusandae consequatur laboriosam voluptatem vel tempore similique rem sit beatae aperiam
+                architecto tenetur, perferendis cumque placeat nostrum!</p>
+
+        </div>
+
+
+
+    </div>
+    <h1>Musu puslapis</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, consequuntur nostrum. Facere
+        suscipit recusandae consequatur laboriosam voluptatem vel tempore similique rem sit beatae aperiam
+        architecto tenetur, perferendis cumque placeat nostrum!</p>
+
+    <button onclick="openModal('fonas')">Pranešimas</button>
+    <button onclick="openModal('fonas2')">Pranešimas</button>
+    <script>
+        function openModal(elementid) {
+            // console.log('Veikia mygtukas');
+           document.getElementById(elementid).style.display='flex';            
+
+        }
+        function closeModal(elementid){
+            document.getElementById(elementid).style.display='none';
+
+        }
+        function manoFunkcija(){
+            console.log('Testas')
+        }
+        // function openModal2() {
+        //     console.log('Veikia mygtukas');
+        //    document.getElementById('fonas2').style.display='flex';            
+
+        // }
+        // function closeModal2(){
+        //     document.getElementById('fonas2').style.display='none';
+
+        // }
+    </script>
+
+</body>
+
+</html>

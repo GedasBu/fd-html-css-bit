@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+div {
+    height: 100vh;
+}
+
+.navigacijos-juosta {
+    height: 50px;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.flex-row-centered {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-1 {
+    background-color: green;
+}
+
+.container-2 {
+    background-color: blue;
+}
+
+.container-3 {
+    background-color: yellow;
+}
+
+.container-4 {
+    background-color: red;
+}
+
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container>img {
+    width: 100%;
+    height: 50%;
+    margin: 20px;
+    max-width: 380px;
+    min-width: 260px;
+}
+
+.content {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.content>p {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 860px) {
+    .flex-row-centered {
+        flex-direction: column;
+    }
+    .image-container {
+        width: 55%;
+        height: 55%;
+        margin: 10px;
+        min-width: 200px;
+    }
+}
+
+.navigacijos-juosta>a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 10px;
+}
+.navigacijos-juosta>a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+.top{
+    position:fixed;
+    top: 1200px;
+    right: 30px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 99;
+    text-decoration: none;
+    box-shadow: 0 0 10px;
+}
+.top:hover{
+    background-color: #555;
+}

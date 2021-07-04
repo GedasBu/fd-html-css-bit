@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+}
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: opensans;
+}
+
+h3 {
+    text-align: center;    
+    padding-bottom: 10px;
+    font-family: opensans;
+
+}
+
+img {
+    width: 100%;
+}
+
+.pirmasd {
+    background-color: cyan;
+    border-bottom: solid 3px;
+   
+   
+}
+@font-face {
+    font-family: opensans;
+    src: url('OpenSans-Regular.ttf');
+}
+html{height: 100vh;}
+
+.antrasd{
+    height: 100vh;
+}
+

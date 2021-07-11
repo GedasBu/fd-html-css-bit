@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Skaiciuokle</title>
+    <!-- <link rel="stylesheet" href="calculations.css"> -->
+</head>
+
+<body style="width:100vw; height:100vh">
+    <div class="d-flex flex-row justify-content-center align-items-center" style="height:100%; width: 100%">
+        <div class="container">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h1>Skaiciavimai</h1>
+                    <label for="skaicius" class="form-labe">Iveskite skaiciu</label>
+                    <input id="skaicius" type="number" class="form-control">
+                    <button type="Subbmit" class="btn btn-primary mt-2 w-100" onclick="calculate()">Skaiciuoti</button>
+                    <p class="mt-2">Kvadratu = <b id="kvadratu"></b></p>
+                    <p> Kubu = <b id="kubu"> </b></p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        let input = document.getElementById('skaicius');
+        function calculate() {
+
+            console.log(input.value * input.value);
+            document.getElementById('kvadratu').textContent = kvadratu(input.value);
+            document.getElementById('kubu').textContent = kubu(input.value);
+        }
+        function kvadratu(skaicius){
+            return skaicius*skaicius;
+        }
+        function kubu(skaicius){
+            return skaicius * skaicius *skaicius;
+        }
+
+    </script>
+
+</body>
+
+</html>

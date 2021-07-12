@@ -1,0 +1,19 @@
+#section-a{
+    
+    background: #eaeaea;
+    color: #333;
+    padding: 0 60px 1em 60px;
+}
+
+#section-a .content{
+
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+#section-a .content p:first-child{
+    padding-right: 20px;
+}
+#section-a .content P:last-child{
+    padding-left: 20px ;
+}

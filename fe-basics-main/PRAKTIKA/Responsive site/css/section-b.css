@@ -1,0 +1,20 @@
+#section-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 60px;
+}
+
+#section-b .card {
+    width: 30%;
+    max-width: 320px;
+    margin: 10px;
+    background: #fff;
+    color: #333;
+}
+#section-b img {
+    width: 100%;
+}
+#section-b .card .card-content {
+    padding: 1.5em ;
+} 

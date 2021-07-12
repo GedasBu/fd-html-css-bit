@@ -1,0 +1,38 @@
+header {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 60px;
+}
+
+header .bg {
+    background: #333 url(../assets/MicrosoftTeams-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    border: solid #666 1px;
+    padding: 1em 2em;
+    background: #333;
+    display: inline-block;
+    margin: 0.5em 0 ;
+}
+header a:hover{
+    background: #eaeaea;
+    color: #333;
+}
+header p{
+    margin: 1rem 0;
+}

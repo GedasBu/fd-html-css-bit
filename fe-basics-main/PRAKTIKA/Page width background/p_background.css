@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { 
+    background: url("https://2.bp.blogspot.com/-SUMDIuZ7m48/TeWj1YDWcNI/AAAAAAAABhg/9fjPiDZHwms/s1600/winter.JPG") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Signika Negative', sans-serif;
+  }
+  header{
+      height: 55px;
+      background: rgba(255,255,255, .5);
+      overflow: hidden;
+      padding: 1%;
+      display: flex;
+      align-items: center;
+     
+  }
+  header img{
+      height: 35px;
+      width: 35px;
+  }
+  header a{
+      margin-left: 10px;
+      font-size: 20px;
+      
+  }

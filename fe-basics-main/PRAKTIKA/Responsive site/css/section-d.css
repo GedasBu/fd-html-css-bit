@@ -1,0 +1,11 @@
+#section-d{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left {
+    width: 50%;
+}
+.right{
+    width: 50%;
+}

@@ -1,0 +1,97 @@
+header .header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-top h1 {
+  border-top: 4px solid #648880;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 44px;
+  padding-top: 40px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+header .header-top h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .header-top h1 a:hover {
+  color: #648880;
+}
+
+header .header-top .header-top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .header-top .header-top-right h3 {
+  text-align: right;
+}
+
+header .header-top .header-top-right nav a {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #fff;
+}
+
+header .header-top .header-top-right nav a:hover {
+  color: #648880;
+}
+
+header .header-bottom {
+  text-align: center;
+  color: #fff;
+  padding: 22px 80px 66px 80px;
+  line-height: 44px;
+}
+
+header .header-bottom h2 {
+  font-size: 36px;
+}
+
+header .header-bottom p {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+header .header-bottom a {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header .header-bottom a:hover {
+  background: #fff;
+  color: #648880;
+}
+/*# sourceMappingURL=header.css.map */

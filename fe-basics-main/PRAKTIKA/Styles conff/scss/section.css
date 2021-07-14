@@ -1,0 +1,32 @@
+section {
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+
+section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .container .card {
+  width: 30%;
+}
+
+section .container .card a:hover h3 {
+  color: #a9b2b9;
+}
+
+section .container .card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=section.css.map */

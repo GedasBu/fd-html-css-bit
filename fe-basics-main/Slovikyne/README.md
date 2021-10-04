@@ -1,2 +1,0 @@
-# slovikyne-rework
-
